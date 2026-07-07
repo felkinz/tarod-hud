@@ -1,25 +1,25 @@
-const url = new URL(window.location.href);
+const params = new URLSearchParams(window.location.search);
 
-const params = url.searchParams;
+const cardName = params.get("card") || "The Fool";
+const orientation = params.get("orientation") || "Upright";
 
-function value(name, fallback)
-{
-    let v = params.get(name);
+async function loadCard() {
+  const response = await fetch("cards.json");
+  const cards = await response.json();
 
-    if(v === null || v === "")
-        return fallback;
+  const card = cards[cardName];
+  const data = card ? card[orientation] : null;
 
-    return decodeURIComponent(v);
+  document.getElementById("cardName").textContent = cardName;
+  document.getElementById("orientation").textContent = orientation;
+
+  if (data) {
+    document.getElementById("keywords").textContent = data.keywords;
+    document.getElementById("meaning").textContent = data.meaning;
+  } else {
+    document.getElementById("keywords").textContent = "Unknown card.";
+    document.getElementById("meaning").textContent = "No meaning found for this card.";
+  }
 }
 
-document.getElementById("cardName").textContent =
-value("card","SELECT A CARD");
-
-document.getElementById("orientation").textContent =
-value("orientation","");
-
-document.getElementById("keywords").textContent =
-value("keywords","Draw or browse a card.");
-
-document.getElementById("meaning").textContent =
-value("meaning","The guidance for your reading will appear here.");
+loadCard();
