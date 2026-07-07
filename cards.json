@@ -1,1 +1,22 @@
-
+{
+  "The Fool": {
+    "Upright": {
+      "keywords": "Beginnings • Risk • Innocence",
+      "meaning": "A new path opens before you. Step forward carefully, but do not fear the unknown."
+    },
+    "Reversed": {
+      "keywords": "Recklessness • Delay • Poor Judgment",
+      "meaning": "The path ahead may be rushed or poorly considered. Slow down before stepping into the unknown."
+    }
+  },
+  "The Moon": {
+    "Upright": {
+      "keywords": "Fear • Illusion • Hidden Truths",
+      "meaning": "Illusion clouds the path. Look beyond fear, rumor, and uncertainty to find the truth."
+    },
+    "Reversed": {
+      "keywords": "Confusion • Anxiety • Deception",
+      "meaning": "Fear and illusion are stronger than clarity right now. Do not trust every shadow."
+    }
+  }
+}
