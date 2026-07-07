@@ -1,1 +1,24 @@
+body {
+  margin: 0;
+  background: #09030f;
+  color: #f4d27a;
+  font-family: Georgia, serif;
+}
 
+.panel {
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  color: #c58cff;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.4;
+}
