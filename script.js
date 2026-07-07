@@ -1,13 +1,25 @@
-const params = new URLSearchParams(window.location.search);
+const url = new URL(window.location.href);
+
+const params = url.searchParams;
+
+function value(name, fallback)
+{
+    let v = params.get(name);
+
+    if(v === null || v === "")
+        return fallback;
+
+    return decodeURIComponent(v);
+}
 
 document.getElementById("cardName").textContent =
-  params.get("card") || "Select a Card";
+value("card","SELECT A CARD");
 
 document.getElementById("orientation").textContent =
-  params.get("orientation") || "—";
+value("orientation","");
 
 document.getElementById("keywords").textContent =
-  params.get("keywords") || "Draw or browse a card.";
+value("keywords","Draw or browse a card.");
 
 document.getElementById("meaning").textContent =
-  params.get("meaning") || "The guidance will appear here.";
+value("meaning","The guidance for your reading will appear here.");
