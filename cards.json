@@ -1,5 +1,6 @@
 {
   "The Fool": {
+    "texture": "5748decc-f629-461c-9a36-a35a221fe21f",
     "Upright": {
       "keywords": "Beginnings • Risk • Innocence",
       "meaning": "A new path opens before you. Step forward carefully, but do not fear the unknown."
@@ -10,6 +11,7 @@
     }
   },
   "The Moon": {
+    "texture": "5748decc-f629-461c-9a36-a35a221fe21f",
     "Upright": {
       "keywords": "Fear • Illusion • Hidden Truths",
       "meaning": "Illusion clouds the path. Look beyond fear, rumor, and uncertainty to find the truth."
