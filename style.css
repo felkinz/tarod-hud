@@ -12,47 +12,47 @@ html, body {
   width: 1024px;
   height: 512px;
   box-sizing: border-box;
-  padding: 34px 48px;
-  background: radial-gradient(circle at top, #241034 0%, #09040f 55%, #030205 100%);
+  padding: 28px 70px;
+  background: radial-gradient(circle at top, #1b0b2a 0%, #06030a 65%, #020104 100%);
   color: #fff2c9;
   text-align: center;
 }
 
 #cardName {
-  font-size: 56px;
-  line-height: 62px;
+  font-size: 50px;
+  line-height: 54px;
   color: #f7d27a;
   text-transform: uppercase;
-  margin: 8px 0 8px;
+  margin: 0 0 4px 0;
 }
 
 #orientation {
-  font-size: 38px;
+  font-size: 34px;
   color: #d69cff;
-  margin-bottom: 22px;
+  margin-bottom: 14px;
 }
 
 .label {
-  font-size: 24px;
-  letter-spacing: 2px;
+  font-size: 22px;
+  letter-spacing: 3px;
   color: #c99544;
-  margin-top: 18px;
+  margin-top: 12px;
   margin-bottom: 8px;
   border-top: 1px solid #8c6428;
-  padding-top: 14px;
+  padding-top: 10px;
 }
 
 #keywords {
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 26px;
+  line-height: 32px;
   color: #ffffff;
-  min-height: 48px;
+  margin-bottom: 6px;
 }
 
 #meaning {
   font-size: 25px;
-  line-height: 32px;
+  line-height: 31px;
   color: #ffffff;
-  max-height: 150px;
+  max-height: 160px;
   overflow: hidden;
 }
