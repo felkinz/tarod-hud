@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  width: 512px;
+  width: 1024px;
   height: 512px;
   overflow: hidden;
   background: #050309;
@@ -9,33 +9,31 @@ html, body {
 }
 
 #panel {
-  width: 512px;
+  width: 1024px;
   height: 512px;
   box-sizing: border-box;
-  padding: 34px 38px;
-  background:
-    radial-gradient(circle at top, #241034 0%, #09040f 55%, #030205 100%);
+  padding: 34px 48px;
+  background: radial-gradient(circle at top, #241034 0%, #09040f 55%, #030205 100%);
   color: #fff2c9;
   text-align: center;
 }
 
 #cardName {
-  font-size: 42px;
-  line-height: 46px;
+  font-size: 56px;
+  line-height: 62px;
   color: #f7d27a;
   text-transform: uppercase;
-  margin-top: 8px;
-  margin-bottom: 10px;
+  margin: 8px 0 8px;
 }
 
 #orientation {
-  font-size: 30px;
+  font-size: 38px;
   color: #d69cff;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .label {
-  font-size: 20px;
+  font-size: 24px;
   letter-spacing: 2px;
   color: #c99544;
   margin-top: 18px;
@@ -45,16 +43,16 @@ html, body {
 }
 
 #keywords {
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 28px;
+  line-height: 34px;
   color: #ffffff;
-  min-height: 64px;
+  min-height: 48px;
 }
 
 #meaning {
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 25px;
+  line-height: 32px;
   color: #ffffff;
-  max-height: 145px;
+  max-height: 150px;
   overflow: hidden;
 }
