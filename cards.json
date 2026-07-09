@@ -1,24 +1,938 @@
 {
   "The Fool": {
-    "texture": "5748decc-f629-461c-9a36-a35a221fe21f",
+    "image": "images/the_fool.png",
+    "texture": "",
     "Upright": {
-      "keywords": "Beginnings • Risk • Innocence",
-      "meaning": "A new path opens before you. Step forward carefully, but do not fear the unknown."
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Fool represents its traditional upright symbolism. Customize this text if desired."
     },
     "Reversed": {
-      "keywords": "Recklessness • Delay • Poor Judgment",
-      "meaning": "The path ahead may be rushed or poorly considered. Slow down before stepping into the unknown."
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Fool represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Magician": {
+    "image": "images/the_magician.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Magician represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Magician represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The High Priestess": {
+    "image": "images/the_high_priestess.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The High Priestess represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The High Priestess represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Empress": {
+    "image": "images/the_empress.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Empress represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Empress represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Emperor": {
+    "image": "images/the_emperor.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Emperor represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Emperor represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Hierophant": {
+    "image": "images/the_hierophant.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Hierophant represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Hierophant represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Lovers": {
+    "image": "images/the_lovers.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Lovers represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Lovers represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Chariot": {
+    "image": "images/the_chariot.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Chariot represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Chariot represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Strength": {
+    "image": "images/strength.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "Strength represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "Strength represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Hermit": {
+    "image": "images/the_hermit.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Hermit represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Hermit represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Wheel of Fortune": {
+    "image": "images/wheel_of_fortune.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "Wheel of Fortune represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "Wheel of Fortune represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Justice": {
+    "image": "images/justice.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "Justice represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "Justice represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Hanged Man": {
+    "image": "images/the_hanged_man.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Hanged Man represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Hanged Man represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Death": {
+    "image": "images/death.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "Death represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "Death represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Temperance": {
+    "image": "images/temperance.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "Temperance represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "Temperance represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Devil": {
+    "image": "images/the_devil.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Devil represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Devil represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Tower": {
+    "image": "images/the_tower.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Tower represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Tower represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Star": {
+    "image": "images/the_star.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Star represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Star represents the reversed interpretation. Customize this text if desired."
     }
   },
   "The Moon": {
-    "texture": "5748decc-f629-461c-9a36-a35a221fe21f",
+    "image": "images/the_moon.png",
+    "texture": "",
     "Upright": {
-      "keywords": "Fear • Illusion • Hidden Truths",
-      "meaning": "Illusion clouds the path. Look beyond fear, rumor, and uncertainty to find the truth."
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Moon represents its traditional upright symbolism. Customize this text if desired."
     },
     "Reversed": {
-      "keywords": "Confusion • Anxiety • Deception",
-      "meaning": "Fear and illusion are stronger than clarity right now. Do not trust every shadow."
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Moon represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The Sun": {
+    "image": "images/the_sun.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The Sun represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The Sun represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Judgement": {
+    "image": "images/judgement.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "Judgement represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "Judgement represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "The World": {
+    "image": "images/the_world.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "See intuition, growth, balance",
+      "meaning": "The World represents its traditional upright symbolism. Customize this text if desired."
+    },
+    "Reversed": {
+      "keywords": "Challenge, delay, imbalance",
+      "meaning": "The World represents the reversed interpretation. Customize this text if desired."
+    }
+  },
+  "Ace of Wands": {
+    "image": "images/ace_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ace of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ace of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Two of Wands": {
+    "image": "images/two_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Two of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Two of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Three of Wands": {
+    "image": "images/three_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Three of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Three of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Four of Wands": {
+    "image": "images/four_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Four of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Four of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Five of Wands": {
+    "image": "images/five_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Five of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Five of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Six of Wands": {
+    "image": "images/six_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Six of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Six of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Seven of Wands": {
+    "image": "images/seven_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Seven of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Seven of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Eight of Wands": {
+    "image": "images/eight_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Eight of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Eight of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Nine of Wands": {
+    "image": "images/nine_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Nine of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Nine of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Ten of Wands": {
+    "image": "images/ten_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ten of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ten of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Page of Wands": {
+    "image": "images/page_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Page of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Page of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Knight of Wands": {
+    "image": "images/knight_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Knight of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Knight of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Queen of Wands": {
+    "image": "images/queen_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Queen of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Queen of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "King of Wands": {
+    "image": "images/king_of_wands.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "King of Wands represents the traditional upright meaning for the wands suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "King of Wands represents the traditional reversed meaning for the wands suit."
+    }
+  },
+  "Ace of Cups": {
+    "image": "images/ace_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ace of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ace of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Two of Cups": {
+    "image": "images/two_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Two of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Two of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Three of Cups": {
+    "image": "images/three_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Three of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Three of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Four of Cups": {
+    "image": "images/four_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Four of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Four of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Five of Cups": {
+    "image": "images/five_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Five of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Five of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Six of Cups": {
+    "image": "images/six_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Six of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Six of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Seven of Cups": {
+    "image": "images/seven_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Seven of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Seven of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Eight of Cups": {
+    "image": "images/eight_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Eight of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Eight of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Nine of Cups": {
+    "image": "images/nine_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Nine of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Nine of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Ten of Cups": {
+    "image": "images/ten_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ten of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ten of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Page of Cups": {
+    "image": "images/page_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Page of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Page of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Knight of Cups": {
+    "image": "images/knight_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Knight of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Knight of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Queen of Cups": {
+    "image": "images/queen_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Queen of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Queen of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "King of Cups": {
+    "image": "images/king_of_cups.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "King of Cups represents the traditional upright meaning for the cups suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "King of Cups represents the traditional reversed meaning for the cups suit."
+    }
+  },
+  "Ace of Swords": {
+    "image": "images/ace_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ace of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ace of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Two of Swords": {
+    "image": "images/two_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Two of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Two of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Three of Swords": {
+    "image": "images/three_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Three of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Three of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Four of Swords": {
+    "image": "images/four_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Four of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Four of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Five of Swords": {
+    "image": "images/five_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Five of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Five of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Six of Swords": {
+    "image": "images/six_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Six of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Six of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Seven of Swords": {
+    "image": "images/seven_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Seven of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Seven of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Eight of Swords": {
+    "image": "images/eight_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Eight of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Eight of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Nine of Swords": {
+    "image": "images/nine_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Nine of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Nine of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Ten of Swords": {
+    "image": "images/ten_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ten of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ten of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Page of Swords": {
+    "image": "images/page_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Page of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Page of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Knight of Swords": {
+    "image": "images/knight_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Knight of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Knight of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Queen of Swords": {
+    "image": "images/queen_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Queen of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Queen of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "King of Swords": {
+    "image": "images/king_of_swords.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "King of Swords represents the traditional upright meaning for the swords suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "King of Swords represents the traditional reversed meaning for the swords suit."
+    }
+  },
+  "Ace of Pentacles": {
+    "image": "images/ace_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ace of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ace of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Two of Pentacles": {
+    "image": "images/two_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Two of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Two of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Three of Pentacles": {
+    "image": "images/three_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Three of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Three of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Four of Pentacles": {
+    "image": "images/four_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Four of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Four of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Five of Pentacles": {
+    "image": "images/five_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Five of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Five of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Six of Pentacles": {
+    "image": "images/six_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Six of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Six of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Seven of Pentacles": {
+    "image": "images/seven_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Seven of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Seven of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Eight of Pentacles": {
+    "image": "images/eight_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Eight of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Eight of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Nine of Pentacles": {
+    "image": "images/nine_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Nine of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Nine of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Ten of Pentacles": {
+    "image": "images/ten_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Ten of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Ten of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Page of Pentacles": {
+    "image": "images/page_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Page of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Page of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Knight of Pentacles": {
+    "image": "images/knight_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Knight of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Knight of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "Queen of Pentacles": {
+    "image": "images/queen_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "Queen of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "Queen of Pentacles represents the traditional reversed meaning for the pentacles suit."
+    }
+  },
+  "King of Pentacles": {
+    "image": "images/king_of_pentacles.png",
+    "texture": "",
+    "Upright": {
+      "keywords": "Opportunity, growth, progress",
+      "meaning": "King of Pentacles represents the traditional upright meaning for the pentacles suit."
+    },
+    "Reversed": {
+      "keywords": "Delay, blockage, imbalance",
+      "meaning": "King of Pentacles represents the traditional reversed meaning for the pentacles suit."
     }
   }
 }
