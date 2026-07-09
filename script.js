@@ -1,25 +1,13 @@
 const params = new URLSearchParams(window.location.search);
 
-const cardName = params.get("card") || "The Fool";
-const orientation = params.get("orientation") || "Upright";
+document.getElementById("cardName").textContent =
+  params.get("card") || "SELECT A CARD";
 
-async function loadCard() {
-  const response = await fetch("cards.json");
-  const cards = await response.json();
+document.getElementById("orientation").textContent =
+  params.get("orientation") || "";
 
-  const card = cards[cardName];
-  const data = card ? card[orientation] : null;
+document.getElementById("keywords").textContent =
+  params.get("keywords") || "Unknown card.";
 
-  document.getElementById("cardName").textContent = cardName;
-  document.getElementById("orientation").textContent = orientation;
-
-  if (data) {
-    document.getElementById("keywords").textContent = data.keywords;
-    document.getElementById("meaning").textContent = data.meaning;
-  } else {
-    document.getElementById("keywords").textContent = "Unknown card.";
-    document.getElementById("meaning").textContent = "No meaning found for this card.";
-  }
-}
-
-loadCard();
+document.getElementById("meaning").textContent =
+  params.get("meaning") || "No meaning found for this card.";
